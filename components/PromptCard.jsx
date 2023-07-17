@@ -7,9 +7,9 @@ import React, { useState } from "react";
 function PromptCard({ post, handleTagClick, handleEdit, handleDelete }) {
   const [copied, setCopied] = useState("");
   const { data: session } = useSession();
-  const pathName=usePathname();
-  const router=useRouter();
-  console.log(post)
+  const pathName = usePathname();
+  const router = useRouter();
+  console.log(post);
 
   function handleCopy() {
     setCopied(post.prompt);
