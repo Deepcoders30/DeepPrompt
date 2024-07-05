@@ -1,6 +1,8 @@
 # DEEPPROMPT
 AI prompting tool that enables users to create, discover, and share creative prompts.
 
+## Getting Started
+
 ### Prerequisites
 
 **Node version 18.x.x**
